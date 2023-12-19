@@ -4,7 +4,7 @@ export default function Example() {
   const [count, setCount] = useState(0);
   console.log(count);
 
-  function Hello() {
+  function Hi() {
     console.log(count);
     setCount(count + 1)
   }
@@ -12,7 +12,7 @@ export default function Example() {
   return (
     <div>
       <p>You clicked {count} times</p>
-      <button onClick={() => Hello()}>
+      <button onClick={() => Hi()}>
         Click me
       </button>
     </div>
